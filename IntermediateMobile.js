@@ -10,12 +10,18 @@ class IntermediateMobile extends BasicMobile {
         <dl>
             <dt>Operating System: </dt>
             <dd><strong>OS: </strong>${this.os}</dd>
+        </dl>
+        <dl>
         <dt>CPU</dt>
             <dd><strong>CPU: </strong>${this.cpu}</dd>
-        <dt>Camera Resolution</dt>
-            <dd><strong>Camera Resolution: </strong>${this.cameraResolution}</dd>
-        <dt>Blutooth Availability</dt>
-            <dd><strong>Blutooth Availability: </strong>${this.blutoothAvailable}</dd>
+        </dl>
+        <dl>
+            <dt>Camera Resolution</dt>
+            <dd><strong>Resolution: </strong>${this.cameraResolution}</dd>
+        </dl>
+        <dl>
+            <dt>Blutooth Availability</dt>
+            <dd><strong>Availability: </strong>${this.blutoothAvailable}</dd>
         </dl>
     `
 }
