@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="BasicMobile.js"></script>
+    <script src="IntermediateMobile.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+    <script>
+        let basicMobile = new BasicMobile('Nokia', '1600', 'GSM', '2002', false, 1000);
+        document.getElementById('display').innerHTML = basicMobile.basicMobileInfo();
+        
+        document.getElementById('display').innerHTML += '<hr></hr>'
+
+        let intermediateMobile = new IntermediateMobile('Samsung', 'Galaxy S Duos', 'GSM / HSPA', '2013 November', 'Yes', 7000, 'Android 4.2.2 (Jelly Bean)', 'Jelly Bean', '5MP, AF', true);
+        document.getElementById('display').innerHTML += intermediateMobile.intermediateMobileInfo();
+
+    
+    </script>
+</body>
+</html>
